@@ -7,13 +7,13 @@ CREATE TABLE schools (
 	"Admissions Rate" FLOAT,
 	"Tuition In-State" FLOAT,
 	"Tuition Out-of-State" FLOAT,
-	"Mean Earnings Post-10 Years" VARCHAR,
-	"Median Earnings Post-10 Years" VARCHAR,
-	"Median Debt for Post-grads" VARCHAR,
+	"Mean Earnings Post-10 Years" INT,
+	"Median Earnings Post-10 Years" INT,
+	"Median Debt for Post-grads" FLOAT,
 	"Online" BOOLEAN,
-	"Median Household Income in ZIP" VARCHAR,
-	"Mean Household Income in ZIP" VARCHAR,
-	"Rental Prices in ZIP" VARCHAR
+	"Median Household Income in ZIP" INT,
+	"Mean Household Income in ZIP" INT,
+	"Rental Prices in ZIP" INT
 );
 
 SELECT * FROM schools;
