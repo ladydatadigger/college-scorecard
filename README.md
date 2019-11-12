@@ -1,4 +1,4 @@
-# data-proj-2
+# College Scorecard
 
 SOURCES:
 College Score Card
